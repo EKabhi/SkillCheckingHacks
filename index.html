@@ -8,12 +8,13 @@
 	<link rel="stylesheet" href="node_modules/Bootstrap/dist/css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
 	<!--******************HEADER*****************-->
 	<header>
-		<div  class="container-fluid">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12 col-sm-6">
 					<img src="img/logo.png" heigth=70px width=70px>
@@ -21,7 +22,7 @@
 				<div class="col-12 col-sm-6">
 					<div class="row justify-content-center">
 						<div class="col-12 col-sm offset-4"><a href="#">Home</a></div>
-						<div class="col-12 col-sm"><a href="about.html">About</a></div>
+						<div class="col-12 col-sm"><a href="#about">About</a></div>
 						<div class="col-12 col-sm"><a href="#">Contact</a></div>
 						<div class="col-12 col-sm"><a href="#">Skills</a></div>
 
@@ -38,12 +39,84 @@
 					<h1>Welcome to CheckYourSkills</h1>
 					<h3>Which skill do you want to check Today?</h3>
 					<div class="container">
-					<h2><a href="loginpage.html">Get Started</a></h2>
+					<h2><a href="#">Get Started</a></h2>
 				</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<!-- ***************About*********************** -->
+	<section id="about">
+		<div class="container-fluid">
+		<div class="row d-flex align-items-center ">
+			<div class="col-sm-6">
+			<h1 id="head_about"><u>About </u>&#8658; </h1>
+			</div>	
+			<div class="col-sm-3 d-flex ">
+				<div id="card1" class="card" style="width: 20rem;">
+		  			<img class="card-img-top" src="img/about1.jpeg" alt="Card image cap" height=300px>
+			  		<div class="card-body">
+			    		<h5 class="card-title">Ekansh Saxena</h5>
+			    		<p class="card-text">I am a B.tech pursuing student from Madan Mohan Malaviya University of Technology, Gorakhpur,U.P (India) who works in Flask/Django/Web and also I am a competitive coder.</p>
+			    		<a href="https://www.linkedin.com/in/ekansh-saxena-a9b163197" class="btn btn-primary">LinkedIn</a>
+			  		</div>
+				</div>
+			</div>
+			<div class="col-sm-3 d-flex">
+				<div class="card" style="width: 20rem;">
+		  			<img class="card-img-top" src="img/about2.jpeg" alt="Card image cap" height=300px>
+			  		<div class="card-body">
+			    		<h5 class="card-title">Abhinandan Mishra</h5>
+			    		<p class="card-text">I am a Web developer who works in Wordpress/CSS/HTML.I have also worked in Digital Marketing.I love maths too much and Also love to code.Apart from this Singing.
+						</p>
+			    		<a href="https://www.linkedin.com/in/abhinandan-mishra-174839167" class="btn btn-primary">LinkedIn</a>
+			  		</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- ******************Footer***********************-->
+	<footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#">skills</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+		              Ramanujan Bhawan<br>
+		              MMMUT, Gorakhpur<br>
+		              Uttar pradesh<br>
+		              India<br>
+		              9927475711<br>
+		              7007241631<br>
+		              Email: <a href="mailto:esaxena9927@gmail.com">esaxena9927@gmail.com</a><br>
+		              <a href="mailto:abhinandanmishra360@gmail.com">abhinandanmishra360@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
+                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2018 CheckYourSkills</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

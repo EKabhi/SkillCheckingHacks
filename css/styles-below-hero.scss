@@ -1,0 +1,19 @@
+#about{
+	.row{
+	margin-top: 50px;
+	}
+}
+%message {
+	font-size: 70px;
+	font-weigth: bold;
+	text-align:center;
+	}
+#about .row h1{
+@extend %message;
+}
+.footer{
+	margin-top: 100px;
+	background-color:lightblue;
+	.container .row{
+	padding-top:30px;}
+}

@@ -1,0 +1,19 @@
+#about .row {
+  margin-top: 50px;
+}
+
+#about .row h1 {
+  font-size: 70px;
+  font-weigth: bold;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: lightblue;
+}
+.footer .container .row {
+  padding-top: 30px;
+}
+
+/*# sourceMappingURL=style2.css.map */

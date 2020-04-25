@@ -6,7 +6,7 @@
 .box{
     height: 100%;
     width: 100%;
-    background:url("img\banner.jpg");
+    background:url("../img/banner.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -75,7 +75,7 @@
     border-top: 0;
     border-bottom: 1px solid #999;
     border-right: 0;
-    outline: nome;
+    outline: none;
     background: transparent;
 }
 .submit{
