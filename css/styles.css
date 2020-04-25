@@ -1,0 +1,91 @@
+.container-fluid{
+	margin: -10px 0px 0px 0px;
+	width: 100vw;
+	background-color: lightblue;
+	padding: auto;
+}
+.col-12, .col-sm, .col-lg{
+	
+	color: red;
+	padding: 10px 5px;
+}
+#hero{
+	width:100vw;
+	background: url("../img/header-bg.jpg") center center;
+	background-size: cover;
+	position: relative;
+	
+}
+#hero:before {
+	  content: "";
+	  background: rgba(0, 0, 0, 0.65);
+	  position: absolute;
+	  bottom: 0;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	}
+
+#hero .hero-container{
+	  position: absolute;
+	  bottom: 43%;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0px 15px;
+}
+#hero h1{
+	color: #0f30fc;
+	font-family: "Acme";
+	font-weight: bolder;
+	text-shadow: 4px 4px 4px #aaa;
+	padding-top: 200px;
+
+}
+#hero h3{
+	color: white;
+	font-family: sans-serif;
+	margin: -10px;
+	display: flex;
+	justify-content: 
+	center;
+	padding-bottom: 100px;
+
+}
+#hero .container{
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	color: black;
+	margin-top: 90px;
+
+	width:220px;
+	border-radius: 30px 5px 30px 5px;
+
+}
+a:hover{
+	color: black;
+}
+h2 a{
+	color: blue;
+}
+@media (min-width: 500px){
+	#hero {
+		height: 90vh;
+	}
+	#hero h1{
+		font-size: 70px;
+	}
+}
+@media (max-width: 499px){
+	#hero{
+	height:40vh;
+}
+#hero h1{
+	font-size: 30px;
+}
+}
