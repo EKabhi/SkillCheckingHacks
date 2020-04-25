@@ -1,8 +1,10 @@
 .container-fluid{
 	margin: -10px 0px 0px 0px;
 	width: 100vw;
-	background-color: lightblue;
 	padding: auto;
+}
+#head{
+	background-color: lightblue;
 }
 .col-12, .col-sm, .col-lg{
 	
@@ -61,7 +63,7 @@
 	display: flex;
 	justify-content: center;
 	color: black;
-	margin-top: 90px;
+	margin-top: 7%;
 
 	width:220px;
 	border-radius: 30px 5px 30px 5px;
@@ -87,5 +89,8 @@ h2 a{
 }
 #hero h1{
 	font-size: 30px;
+}
+#hero h3{
+	font-size: 15px;
 }
 }

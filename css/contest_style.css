@@ -1,0 +1,73 @@
+body {
+  background: black;
+}
+
+.container {
+  margin: 5%;
+}
+.container .row h1 {
+  font-size: 60px;
+  padding-left: 10%;
+  color: blue;
+  text-shadow: 10px 10px 10px 10px white;
+}
+.container .row h2 {
+  font-size: 80px;
+  color: black;
+}
+.container .row .card {
+  margin: 2%;
+  width: 350px;
+  height: 200px;
+  background: linear-gradient(#ff105f, #ffad06);
+}
+
+@keyframes l_to_r {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  48% {
+    left: 50vw;
+    top: 0px;
+  }
+  52% {
+    left: 50vw;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+@keyframes r_to_l {
+  0% {
+    left: 50vw;
+    top: 0px;
+  }
+  48% {
+    left: 0px;
+    top: 0px;
+  }
+  52% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 50vw;
+    top: 0px;
+  }
+}
+div #card_odd {
+  animation-name: l_to_r;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+
+div #card_even {
+  animation-name: r_to_l;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+
+/*# sourceMappingURL=contest_style.css.map */

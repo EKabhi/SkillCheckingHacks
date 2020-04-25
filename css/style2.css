@@ -1,11 +1,15 @@
 #about .row {
   margin-top: 50px;
 }
+#about .card {
+  box-shadow: 5px 5px 5px 5px;
+}
 
-#about .row h1 {
+#skills .row h1, #about .row h1 {
   font-size: 70px;
-  font-weigth: bold;
+  font-weight: bold;
   text-align: center;
+  color: black;
 }
 
 .footer {
@@ -14,6 +18,32 @@
 }
 .footer .container .row {
   padding-top: 30px;
+}
+
+#skills .row {
+  margin-top: 50px;
+}
+#skills .row .col-sm {
+  display: flex;
+  flex-wrap: wrap;
+}
+#skills .row .col-sm .card {
+  box-shadow: 2px 5px 2px 5px;
+  font-weight: bold;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+#skills .row .col-sm .card a {
+  color: blue;
+}
+#skills .row .col-sm #card_odd {
+  background: linear-gradient(to right, #4c72b0, #c0d1f0);
+}
+#skills .row .col-sm #card_even {
+  background: linear-gradient(to right, #c0d1f0, #4c72b0);
 }
 
 /*# sourceMappingURL=style2.css.map */
